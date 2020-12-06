@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noEmit": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "target": "esnext",
+    "outDir": "./tmp-tsc"
+  },
+  "exclude": ["node_modules", "babel.config.js", "jest.config.js", "metro.config.js", "react-native.config.js"],
+  "include": ["src", "test", "storybook", "packages"]
+}

@@ -1,0 +1,3 @@
+// app.ts
+
+export default () => ({});

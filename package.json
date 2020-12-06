@@ -1,0 +1,25 @@
+{
+  "name": "tdd-tutorial",
+  "private": true,
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "@babel/preset-typescript": "^7.7.4",
+    "@types/jest": "^24.0.23",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "typescript": "^3.7.3"
+  },
+  "keywords": [],
+  "description": "",
+  "workspaces": [
+    "eg-gatsby"
+  ]
+}
